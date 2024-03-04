@@ -50,3 +50,33 @@ console.log(obj);
 let myFunction = function(){
     console.log(Hello_World);
 };
+
+
+//*******************************************************
+
+// Stack(Premetive),Heap(Non-Premetive)
+
+// Stack
+let person1 = "User1";
+let person2 = "User2";
+person2 = "User5"
+
+console.log(person1);
+console.log(person2);
+
+// Heap
+
+let userone = {
+    name:"Userone",
+    email:"abc@gmail.com"
+};
+
+let usertwo = userone;
+
+console.log(userone);
+console.log(usertwo);
+
+usertwo.email = "a@gmail.com";
+
+console.log(userone);
+console.log(usertwo);
